@@ -36,8 +36,8 @@ document.getElementById("red-btn").onclick = function () {
 };
 
 document.getElementById("blue-btn").onclick = function () {
-    document.getElementById("blue").classList.remove("bg-primary");
-    document.getElementById("blue").classList.remove("text-primary-content");
-    document.getElementById("blue").style.backgroundColor = "blue";
-    document.getElementById("blue").classList.add("text-white");
-  };
+  document.getElementById("blue").classList.remove("bg-primary");
+  document.getElementById("blue").classList.remove("text-primary-content");
+  document.getElementById("blue").style.backgroundColor = "blue";
+  document.getElementById("blue").classList.add("text-white");
+};
