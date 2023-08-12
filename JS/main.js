@@ -11,7 +11,10 @@ h1CustomCssClass.classList.add(
   "md:my-20",
   "my-10",
   "mx-2",
-  "text-white"
+  "text-white",
+  "leading-8",
+  "md:leading-[5rem]",
+  "lg:leading-[5rem]"
 );
 
 document.getElementById("yellow-btn").onclick = function () {
