@@ -8,7 +8,7 @@ h1CustomCssClass.classList.add(
   "lg:text-5xl",
   "md:text-4xl",
   "text-center",
-  "md:my-20",
+  "md:my-8",
   "my-10",
   "mx-2",
   "text-white",
@@ -52,3 +52,12 @@ document.getElementById("blue-btn").onclick = function () {
   document.getElementById("blue").style.backgroundColor = "blue";
   document.getElementById("blue").classList.add("text-white");
 };
+
+document
+  .querySelector("#dark-white-mode")
+  .addEventListener("click", function () {
+    document.getElementById("html").removeAttribute("data-theme");
+    document.getElementById("html").setAttribute("data-theme", "synthwave");
+    document.querySelector("#dark-white-mode").innerText = "SYNTHAVE MODE";
+    document.querySelector("#dark-white-mode").classList.add("white-mode");
+  });
