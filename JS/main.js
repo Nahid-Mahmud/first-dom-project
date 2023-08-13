@@ -17,12 +17,16 @@ h1CustomCssClass.classList.add(
   "lg:leading-[5rem]"
 );
 
+// Function for Yellow color
+
 document.getElementById("yellow-btn").onclick = function () {
   document.getElementById("yellow").classList.remove("bg-primary");
   document.getElementById("yellow").classList.remove("text-primary-content");
   document.getElementById("yellow").style.backgroundColor = "yellow";
   document.getElementById("yellow").classList.add("text-black");
 };
+
+// Function For Green Color
 
 document.getElementById("green-btn").onclick = function () {
   document.getElementById("green").classList.remove("bg-primary");
@@ -31,12 +35,16 @@ document.getElementById("green-btn").onclick = function () {
   document.getElementById("green").classList.add("text-black");
 };
 
+//Function for Red Color
+
 document.getElementById("red-btn").onclick = function () {
   document.getElementById("red").classList.remove("bg-primary");
   document.getElementById("red").classList.remove("text-primary-content");
   document.getElementById("red").style.backgroundColor = "red";
   document.getElementById("red").classList.add("text-black");
 };
+
+//Function for Blue Color
 
 document.getElementById("blue-btn").onclick = function () {
   document.getElementById("blue").classList.remove("bg-primary");
